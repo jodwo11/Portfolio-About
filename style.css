@@ -1,0 +1,493 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:600italic,400,700,300,500,600|Nunito:400,300");
+
+@font-face {
+  font-family: "SegoeUI-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
+}
+
+:root {
+  --rose-white: #fff6f6;
+  --moonstone: #3a9dba;
+  --font-size-s: 16px;
+  --font-size-xl: 48px;
+  --font-size-xl2: 29px;
+  --font-size-l: 27px;
+  --font-size-xxl: 92px;
+  --font-size-xs: 23px;
+  --font-size-m: 24px;
+  --font-family-fira_sans: "Fira Sans", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+  --font-family-nunito: "Nunito", Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.about {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 1249px;
+  overflow-x: hidden;
+  width: 1920px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.flex-row-4 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 39px;
+  margin-right: 30px;
+  margin-top: 31px;
+  min-width: 1818px;
+}
+
+.nunito-light-moonstone-27px {
+  color: var(--moonstone);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.name-1 {
+  letter-spacing: 0;
+  line-height: 27px;
+  min-height: 39px;
+  min-width: 562px;
+  white-space: nowrap;
+}
+
+.place {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-left: 1162px;
+  min-height: 39px;
+  white-space: nowrap;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: -42px;
+  min-width: 2070px;
+}
+
+.overlap-group3 {
+  height: 1164px;
+  position: relative;
+  width: 2070px;
+}
+
+.header {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62a8a09f4b0ebeeff6eb1ea4/releases/62a8bcb52f2f787c60c59721/img/rectangle-66@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 94px;
+  left: 30px;
+  min-width: 1958px;
+  padding: 11px 40px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group1 {
+  align-self: flex-end;
+  height: 56px;
+  position: relative;
+  width: 308px;
+}
+
+.portfolio-logo {
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 56px;
+}
+
+.name {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.contact-icons {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-top: 4px;
+  width: 146px;
+}
+
+.chat {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62a8a09f4b0ebeeff6eb1ea4/releases/62a8cb0bce01e68ca9073943/img/path-16@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4.1px;
+  margin-top: 4.1px;
+  min-height: calc(100% - 8px);
+  padding: 17.6px 8.7px;
+  width: 58.58px;
+}
+
+.path-18 {
+  height: 3px;
+  margin-left: 2.51px;
+  margin-top: 5px;
+  width: 17px;
+}
+
+.path-17 {
+  height: 3px;
+  margin-top: 1px;
+  width: 22px;
+}
+
+.linked-in_logo_initials {
+  border-radius: 19px;
+  width: 56px;
+}
+
+.buttons {
+  display: flex;
+  height: 61px;
+  justify-content: space-between;
+  margin-left: 985px;
+  margin-top: 2px;
+  width: 368px;
+}
+
+.about-1 {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 163px;
+  padding: 5.5px 34px;
+}
+
+.segoeui-regular-normal-rose-white-29px {
+  color: var(--rose-white);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xl2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-2 {
+  letter-spacing: 0;
+  line-height: 29px;
+  min-height: 40px;
+  min-width: 94px;
+  white-space: nowrap;
+}
+
+.portfolio {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0;
+  min-width: 196px;
+  padding: 5.5px 22px;
+}
+
+.portfolio-1 {
+  letter-spacing: 0;
+  line-height: 29px;
+  min-height: 40px;
+  min-width: 151px;
+  white-space: nowrap;
+}
+
+.overlap-group2 {
+  align-items: flex-end;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62a8a09f4b0ebeeff6eb1ea4/releases/62aa04c587a7ea5161e582c2/img/about-me@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1164px;
+  padding: 6px 208px;
+  position: absolute;
+  top: 0;
+  width: 2070px;
+}
+
+.joshua-is-a-uxui-de {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: 35px;
+  min-height: 194px;
+  min-width: 1066px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 293px;
+  margin-right: 85px;
+  margin-top: 46px;
+  min-width: 816px;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 293px;
+  width: 235px;
+}
+
+.firasans-bold-rose-white-48px {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.skills {
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-right: 1px;
+  min-height: 60px;
+  min-width: 150px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.visual-design-lo {
+  color: var(--rose-white);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 33px;
+  min-height: 200px;
+  min-width: 235px;
+  white-space: nowrap;
+}
+
+.tools-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 243px;
+  min-height: 209px;
+  width: 338px;
+}
+
+.tools {
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-left: 2px;
+  min-height: 60px;
+  min-width: 144px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tools-icons {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3px;
+  min-height: 146px;
+  width: 338px;
+}
+
+.flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 338px;
+}
+
+.x586d7ac125738d9f2d793e92 {
+  height: 58px;
+  margin-left: 6px;
+  width: 59px;
+}
+
+.miro-logo-4-f00416377-seeklogocom {
+  height: 59px;
+  width: 68px;
+}
+
+.adobe_-premiere_-pro_-logosvg {
+  align-self: center;
+  height: 55px;
+  margin-bottom: 2px;
+  margin-left: 6px;
+  width: 55px;
+}
+
+.x586d7feb25738d9f2d793e96 {
+  height: 63px;
+  margin-left: 4px;
+  width: 63px;
+}
+
+.adobe-xd-logo-png-transparent {
+  height: 58px;
+  margin-left: 18px;
+  width: 59px;
+}
+
+.flex-row-3 {
+  align-items: center;
+  display: flex;
+  margin-left: 2px;
+  margin-top: 17px;
+  min-width: 330px;
+}
+
+.figma-611bc65147bf776b293e307bfdebffdb {
+  height: 66px;
+  width: 137px;
+}
+
+.microsoft_-office_20 {
+  height: 52px;
+  margin-left: 31px;
+  width: 162px;
+}
+
+.education {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 214px;
+  margin-top: 38px;
+  min-height: 193px;
+  width: 559px;
+}
+
+.overlap-group {
+  height: 152px;
+  position: relative;
+  width: 559px;
+}
+
+.user-experience-user {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 109px;
+  white-space: nowrap;
+}
+
+.firasans-light-rose-white-16px {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-s);
+}
+
+.firasans-bold-rose-white-16px {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.firasans-light-rose-white-16px-2 {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.seneca_-college-logowine {
+  height: 132px;
+  left: 336px;
+  position: absolute;
+  top: 20px;
+  width: 198px;
+}
+
+.university_of_-toronto-logowine {
+  height: 143px;
+  left: 37px;
+  position: absolute;
+  top: 0;
+  width: 215px;
+}
+
+.ba-human-resources {
+  left: 298px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 109px;
+  white-space: nowrap;
+}
+
+.education-1 {
+  left: 157px;
+  letter-spacing: 0;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+}
+
+.international-busine {
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 33px;
+  margin-top: 6px;
+  min-height: 40px;
+  min-width: 190px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.title {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 92px;
+  margin-right: 178px;
+  margin-top: 241px;
+  min-height: 112px;
+  min-width: 628px;
+  text-align: center;
+  white-space: nowrap;
+}
